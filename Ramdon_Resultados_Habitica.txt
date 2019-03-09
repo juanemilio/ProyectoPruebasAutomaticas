@@ -1,0 +1,58 @@
+C:\Users\Ramiro\node_modules\cypress\bin\cypress
+
+
+================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:  3.1.5                                                            │
+  │ Browser:  Electron 59 (headless)                                           │
+  │ Specs:    1 found (6\013_Monkey.spec.js)                                   │
+  └────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────
+                                                                                
+  Running: 6\013_Monkey.spec.js...                                     (1 of 1) 
+
+
+  Habitica - Monkey
+    √ visits habitica (43065ms)
+
+
+  1 passing (45s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────┐
+  │ Tests:        1                    │
+  │ Passing:      1                    │
+  │ Failing:      0                    │
+  │ Pending:      0                    │
+  │ Skipped:      0                    │
+  │ Screenshots:  0                    │
+  │ Video:        true                 │
+  │ Duration:     45 seconds           │
+  │ Spec Ran:     6\013_Monkey.spec.js │
+  └────────────────────────────────────┘
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  C:\Users\Ramiro\cypress\videos\6\013_Monkey.spec.js.mp4 (0 seconds)
+
+
+================================================================================
+
+  (Run Finished)
+
+
+      Spec                                    Tests  Pass…  Fail…  Pend…  Skip… 
+  ┌────────────────────────────────────────────────────────────────────────────┐
+  │ √ 6\013_Monkey.spec.js            00:45      1      1      -      -      - │
+  └────────────────────────────────────────────────────────────────────────────┘
+    All specs passed!                 00:45      1      1      -      -      -  
+

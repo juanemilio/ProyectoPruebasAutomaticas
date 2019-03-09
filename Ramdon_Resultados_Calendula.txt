@@ -1,0 +1,236 @@
+  bash arg: -p
+  bash arg: es.usc.citius.servando.calendula
+  bash arg: -v
+  bash arg: 1000
+:Monkey: seed=1552231131442 count=1000
+:AllowPackage: es.usc.citius.servando.calendula
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=es.usc.citius.servando.calendula/.activities.StartActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=es.usc.citius.servando.calendula/.activities.StartActivity } in package es.usc.citius.servando.calendula
+:Sending Touch (ACTION_DOWN): 0:(518.0,1156.0)
+:Sending Touch (ACTION_UP): 0:(499.0631,1158.322)
+:Sending Touch (ACTION_DOWN): 0:(365.0,1497.0)
+:Sending Touch (ACTION_UP): 0:(352.03,1492.3153)
+:Sending Touch (ACTION_DOWN): 0:(732.0,1111.0)
+:Sending Touch (ACTION_UP): 0:(742.19995,1104.3373)
+:Sending Touch (ACTION_DOWN): 0:(46.0,1413.0)
+:Sending Touch (ACTION_UP): 0:(37.49121,1413.0024)
+    // Allowing start of Intent { cmp=es.usc.citius.servando.calendula/.HomePagerActivity } in package es.usc.citius.servando.calendula
+:Sending Touch (ACTION_DOWN): 0:(893.0,732.0)
+:Sending Touch (ACTION_UP): 0:(897.0599,721.92126)
+    // activityResuming(es.usc.citius.servando.calendula)
+:Sending Touch (ACTION_DOWN): 0:(1019.0,27.0)
+:Sending Touch (ACTION_UP): 0:(1034.4402,36.639854)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(993.0,65.0)
+:Sending Touch (ACTION_UP): 0:(1060.6797,40.501713)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(272.0,1339.0)
+:Sending Touch (ACTION_UP): 0:(270.34222,1374.3539)
+:Sending Touch (ACTION_DOWN): 0:(944.0,1740.0)
+:Sending Touch (ACTION_UP): 0:(956.3498,1627.9655)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+    //[calendar_time:2019-03-09 01:28:45.368  system_uptime:11287572]
+    // Sending event #100
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(120.0,80.0)
+:Sending Touch (ACTION_UP): 0:(135.62465,69.4428)
+:Sending Touch (ACTION_DOWN): 0:(1070.0,1602.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,1643.0742)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(958.0,677.0)
+:Sending Touch (ACTION_UP): 0:(956.3208,689.99695)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(641.0,855.0)
+:Sending Touch (ACTION_UP): 0:(640.1389,859.7238)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+    //[calendar_time:2019-03-09 01:28:45.785  system_uptime:11287989]
+    // Sending event #200
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=es.usc.citius.servando.calendula/.activities.StartActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=es.usc.citius.servando.calendula/.activities.StartActivity } in package es.usc.citius.servando.calendula
+:Sending Touch (ACTION_DOWN): 0:(252.0,1309.0)
+:Sending Touch (ACTION_UP): 0:(253.63707,1313.347)
+:Sending Touch (ACTION_DOWN): 0:(140.0,247.0)
+:Sending Touch (ACTION_UP): 0:(137.83527,254.79651)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(792.0,1359.0)
+:Sending Touch (ACTION_UP): 0:(813.195,1344.6548)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(63.0,603.0)
+:Sending Touch (ACTION_UP): 0:(61.79307,614.9835)
+:Sending Touch (ACTION_DOWN): 0:(37.0,586.0)
+:Sending Touch (ACTION_UP): 0:(40.534344,589.8703)
+:Sending Touch (ACTION_DOWN): 0:(1066.0,730.0)
+:Sending Touch (ACTION_UP): 0:(1063.6403,735.01807)
+:Sending Touch (ACTION_DOWN): 0:(877.0,966.0)
+:Sending Touch (ACTION_UP): 0:(914.90393,997.55347)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(761.0,565.0)
+:Sending Touch (ACTION_UP): 0:(759.46405,555.5071)
+    //[calendar_time:2019-03-09 01:28:47.040  system_uptime:11289244]
+    // Sending event #300
+:Sending Touch (ACTION_DOWN): 0:(769.0,1044.0)
+:Sending Touch (ACTION_UP): 0:(774.6588,1047.8827)
+:Sending Touch (ACTION_DOWN): 0:(1063.0,534.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,568.5391)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(706.0,1137.0)
+:Sending Touch (ACTION_UP): 0:(710.1064,1061.1245)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=es.usc.citius.servando.calendula/.activities.StartActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=es.usc.citius.servando.calendula/.activities.StartActivity } in package es.usc.citius.servando.calendula
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(345.0,621.0)
+:Sending Touch (ACTION_UP): 0:(287.22867,614.8105)
+:Sending Touch (ACTION_DOWN): 0:(343.0,7.0)
+    // Rejecting start of Intent { act=android.settings.APPLICATION_DEVELOPMENT_SETTINGS cmp=com.android.settings/.development.DevelopmentSettingsDisabledActivity } in package com.android.settings
+:Sending Touch (ACTION_UP): 0:(325.2531,7.6010237)
+:Sending Touch (ACTION_DOWN): 0:(439.0,1419.0)
+:Sending Touch (ACTION_UP): 0:(444.76044,1414.5162)
+:Sending Touch (ACTION_DOWN): 0:(810.0,1394.0)
+:Sending Touch (ACTION_UP): 0:(788.4102,1360.1766)
+:Sending Flip keyboardOpen=false
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+    //[calendar_time:2019-03-09 01:28:47.602  system_uptime:11289807]
+    // Sending event #400
+:Sending Touch (ACTION_DOWN): 0:(1026.0,1506.0)
+:Sending Touch (ACTION_UP): 0:(1025.0254,1506.1511)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(88.0,639.0)
+:Sending Touch (ACTION_UP): 0:(97.02573,624.5293)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Touch (ACTION_DOWN): 0:(331.0,15.0)
+:Sending Touch (ACTION_UP): 0:(348.28073,30.840803)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+    // Injection Failed
+    //[calendar_time:2019-03-09 01:28:48.350  system_uptime:11290555]
+    // Sending event #500
+    //[calendar_time:2019-03-09 01:28:48.351  system_uptime:11290555]
+    // Sending event #500
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(661.0,1579.0)
+    // Rejecting start of Intent { act=android.settings.APPLICATION_DEVELOPMENT_SETTINGS cmp=com.android.settings/.development.DevelopmentSettingsDisabledActivity } in package com.android.settings
+:Sending Touch (ACTION_UP): 0:(727.743,1623.3732)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity } in package com.google.android.apps.nexuslauncher
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(896.0,800.0)
+:Sending Touch (ACTION_UP): 0:(901.5255,799.9416)
+:Sending Touch (ACTION_DOWN): 0:(832.0,1369.0)
+:Sending Touch (ACTION_UP): 0:(842.435,1373.5092)
+:Sending Touch (ACTION_DOWN): 0:(432.0,1634.0)
+:Sending Touch (ACTION_UP): 0:(370.3987,1581.3232)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(721.0,296.0)
+:Sending Touch (ACTION_UP): 0:(715.9958,297.19803)
+    //[calendar_time:2019-03-09 01:28:49.115  system_uptime:11291320]
+    // Sending event #600
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(43.0,163.0)
+:Sending Touch (ACTION_UP): 0:(29.712183,162.59311)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(2.0,587.0)
+:Sending Touch (ACTION_UP): 0:(11.149952,543.77625)
+:Sending Touch (ACTION_DOWN): 0:(506.0,758.0)
+:Sending Touch (ACTION_UP): 0:(523.5826,704.8533)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(549.0,1216.0)
+:Sending Touch (ACTION_UP): 0:(552.8972,1216.4962)
+    //[calendar_time:2019-03-09 01:28:49.780  system_uptime:11291984]
+    // Sending event #700
+:Sending Touch (ACTION_DOWN): 0:(456.0,776.0)
+:Sending Touch (ACTION_UP): 0:(461.32767,687.42316)
+:Sending Touch (ACTION_DOWN): 0:(473.0,1074.0)
+:Sending Touch (ACTION_UP): 0:(380.96567,1059.029)
+:Sending Touch (ACTION_DOWN): 0:(59.0,4.0)
+:Sending Touch (ACTION_UP): 0:(61.071247,3.3288918)
+:Sending Touch (ACTION_DOWN): 0:(1074.0,1728.0)
+:Sending Touch (ACTION_UP): 0:(1080.0,1742.1667)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Flip keyboardOpen=true
+:Sending Touch (ACTION_DOWN): 0:(373.0,582.0)
+:Sending Touch (ACTION_UP): 0:(378.95285,584.75696)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.gm/.ConversationListActivityGmail } in package com.google.android.gm
+:Sending Touch (ACTION_DOWN): 0:(0.0,967.0)
+:Sending Touch (ACTION_UP): 0:(0.0,974.27325)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(858.0,1415.0)
+:Sending Touch (ACTION_UP): 0:(806.1701,1383.6681)
+:Sending Touch (ACTION_DOWN): 0:(587.0,1672.0)
+:Sending Touch (ACTION_UP): 0:(644.57477,1705.0941)
+    //[calendar_time:2019-03-09 01:28:50.500  system_uptime:11292704]
+    // Sending event #800
+    //[calendar_time:2019-03-09 01:28:50.500  system_uptime:11292704]
+    // Sending event #800
+:Sending Touch (ACTION_DOWN): 0:(791.0,1128.0)
+:Sending Touch (ACTION_UP): 0:(782.58203,1205.0009)
+:Sending Touch (ACTION_DOWN): 0:(1003.0,637.0)
+:Sending Touch (ACTION_UP): 0:(998.9113,643.87445)
+:Sending Touch (ACTION_DOWN): 0:(633.0,44.0)
+:Sending Touch (ACTION_UP): 0:(628.2494,71.92404)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(849.0,470.0)
+:Sending Touch (ACTION_UP): 0:(931.2394,542.3203)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(925.0,1373.0)
+:Sending Touch (ACTION_UP): 0:(927.8157,1375.0381)
+:Sending Touch (ACTION_DOWN): 0:(889.0,1193.0)
+:Sending Touch (ACTION_UP): 0:(905.3123,1204.4506)
+:Sending Touch (ACTION_DOWN): 0:(318.0,257.0)
+:Sending Touch (ACTION_UP): 0:(298.85852,264.83124)
+:Sending Touch (ACTION_DOWN): 0:(738.0,657.0)
+:Sending Touch (ACTION_UP): 0:(735.39545,589.9022)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+    //[calendar_time:2019-03-09 01:28:50.876  system_uptime:11293081]
+    // Sending event #900
+:Sending Touch (ACTION_DOWN): 0:(664.0,1333.0)
+:Sending Touch (ACTION_UP): 0:(759.5118,1271.0641)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(942.0,1461.0)
+:Sending Touch (ACTION_UP): 0:(964.162,1404.346)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(806.0,1686.0)
+:Sending Touch (ACTION_UP): 0:(805.2492,1677.9808)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(148.0,764.0)
+:Sending Touch (ACTION_UP): 0:(112.95314,780.0759)
+:Sending Touch (ACTION_DOWN): 0:(0.0,1010.0)
+:Sending Touch (ACTION_UP): 0:(4.0388527,1016.94037)
+:Sending Touch (ACTION_DOWN): 0:(1067.0,1444.0)
+:Sending Touch (ACTION_UP): 0:(1067.5201,1441.7554)
+:Sending Touch (ACTION_DOWN): 0:(305.0,206.0)
+:Sending Touch (ACTION_UP): 0:(303.3627,202.97086)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+Events injected: 1000
+:Sending rotation degree=0, persist=false
+:Dropped: keys=1 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=6832ms (0ms mobile, 0ms wifi, 6832ms not connected)
+// Monkey finished
