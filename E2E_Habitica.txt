@@ -1,0 +1,161 @@
+describe('Login Fallido Habitica', function() {
+    it('Login Fallido Habitica', function() {
+      cy.visit('https://habitica.com/');
+      cy.get('.login-button').click();
+
+      cy.get('#login-form').find('input[id=usernameInput]').click().type("prueba");
+      cy.get('#login-form').find('input[id=passwordInput]').click().type("pruebas1234");
+      cy.get('.btn.btn-info').click();        
+    })
+})
+
+
+
+describe('Login Correcto Habitica', function() {
+    it('Login Correcto Habitica', function() {
+      cy.visit('https://habitica.com/');
+      cy.get('.login-button').click();
+
+      cy.get('#login-form').find('input[id=usernameInput]').click().type("pruebaset2");
+      cy.get('#login-form').find('input[id=passwordInput]').click().type("pruebas1234");
+      cy.get('.btn.btn-info').click();
+    })
+})
+
+
+
+describe('Creación y eliminación de hábito', function() {
+    it('Creación y eliminación de hábito', function() {
+      cy.visit('https://habitica.com/');
+      cy.get('.login-button').click();
+
+      cy.get('#login-form').find('input[id=usernameInput]').click().type("pruebaset2");
+      cy.get('#login-form').find('input[id=passwordInput]').click().type("pruebas1234");
+      cy.get('.btn.btn-info').click();
+	  
+      cy.get('.habit > .tasks-list > .quick-add').click().type("Nuevo hábito").type('{enter}');
+
+      cy.get('.habit > .tasks-list > .sortable-tasks > :nth-child(1) > .task > :nth-child(1) > .task-content > .task-clickable-area > .d-flex > .habitica-menu-dropdown > .habitica-menu-dropdown-toggle').click();
+      cy.get('.habit > .tasks-list > .sortable-tasks > :nth-child(1) > .task > :nth-child(1) > .task-content > .task-clickable-area > .d-flex > .habitica-menu-dropdown > .dropdown-menu > :nth-child(1) > :nth-child(4)').first().click();       
+        
+    })
+})
+
+
+describe('Cumplimiento de hábito', function() {
+    it('Cumplimiento de hábito', function() {
+      cy.visit('https://habitica.com/');
+      cy.get('.login-button').click();
+
+      cy.get('#login-form').find('input[id=usernameInput]').click().type("pruebaset2");
+      cy.get('#login-form').find('input[id=passwordInput]').click().type("pruebas1234");
+      cy.get('.btn.btn-info').click();
+	  
+	  //cy.get('.btn.btn-primary').click();
+	  //cy.get('.close').click();
+
+      cy.get('.habit > .tasks-list > .quick-add').click().type("Llegar a tiempo").type('{enter}');
+      cy.get(':nth-child(1) > .task > :nth-child(1) > .left-control > .task-control').first().click();
+        
+    })
+})
+
+
+
+describe('Creación y eliminación de Diaria', function() {
+    it('Creación y eliminación de Diaria', function() {
+      cy.visit('https://habitica.com/');
+      cy.get('.login-button').click();
+
+      cy.get('#login-form').find('input[id=usernameInput]').click().type("pruebaset2");
+      cy.get('#login-form').find('input[id=passwordInput]').click().type("pruebas1234");
+      cy.get('.btn.btn-info').click();
+
+      cy.get('.daily > .tasks-list > .quick-add').click().type("Nueva Diaria").type('{enter}')
+
+	  cy.get('.daily > .tasks-list > .sortable-tasks > :nth-child(1) > .task > :nth-child(1) > .task-content > .task-clickable-area').click({force: true})        
+      cy.get('.delete-task-btn').click()  
+    })
+})
+
+
+describe('Cumplimiento de diaria', function() {
+    it('Cumplimiento de diaria', function() {
+      cy.visit('https://habitica.com/');
+      cy.get('.login-button').click();
+
+      cy.get('#login-form').find('input[id=usernameInput]').click().type("pruebaset2");
+      cy.get('#login-form').find('input[id=passwordInput]').click().type("pruebas1234");
+      cy.get('.btn.btn-info').click(); 
+
+      cy.get('.daily > .tasks-list > .quick-add').click().type("Leer algo nuevo").type('{enter}')
+      cy.get('.daily > .tasks-list > .sortable-tasks > :nth-child(1) > .task > :nth-child(1) > .left-control > .task-control').first().click({force: true})             
+        
+    })
+})
+
+
+describe('Creación y eliminación de Pendiente', function() {
+    it('Creación y eliminación de Pendiente', function() {
+      cy.visit('https://habitica.com/');
+      cy.get('.login-button').click();
+
+      cy.get('#login-form').find('input[id=usernameInput]').click().type("pruebaset2");
+      cy.get('#login-form').find('input[id=passwordInput]').click().type("pruebas1234");
+      cy.get('.btn.btn-info').click();
+
+      cy.get('.todo > .tasks-list > .quick-add').click().type("Algo Pendiente").type('{enter}')
+
+	  cy.get('.todo > .tasks-list > .sortable-tasks > .task-wrapper > .task > :nth-child(1) > .task-content > .task-clickable-area > .d-flex').first().click({force: true})        
+      cy.get('.delete-task-btn').click()  
+    })
+})
+
+
+describe('Cumplimiento de diaria', function() {
+    it('Cumplimiento de diaria', function() {
+      cy.visit('https://habitica.com/');
+      cy.get('.login-button').click();
+
+      cy.get('#login-form').find('input[id=usernameInput]').click().type("pruebaset2");
+      cy.get('#login-form').find('input[id=passwordInput]').click().type("pruebas1234");
+      cy.get('.btn.btn-info').click(); 
+
+      cy.get('.todo > .tasks-list > .quick-add').type("Pasear al perro").type('{enter}')
+	  cy.get('.todo > .tasks-list > .sortable-tasks > .task-wrapper > .task > :nth-child(1) > .left-control > .task-control').first().click({force: true})             
+        
+    })
+})
+
+
+describe('Creación y eliminación de Recompensa', function() {
+    it('Creación y eliminación de Recompensa', function() {
+      cy.visit('https://habitica.com/');
+      cy.get('.login-button').click();
+
+      cy.get('#login-form').find('input[id=usernameInput]').click().type("pruebaset2");
+      cy.get('#login-form').find('input[id=passwordInput]').click().type("pruebas1234");
+      cy.get('.btn.btn-info').click(); 
+
+      cy.get('.reward > .tasks-list  > .quick-add').click().type("Una recompensa").type('{enter}')
+
+      cy.get('.reward > .tasks-list > .sortable-tasks > .task-wrapper > .task > :nth-child(1) > .task-content > .task-clickable-area > .d-flex').first().click({force: true})        
+      cy.get('.delete-task-btn').click()  
+    })
+})
+
+
+describe('Cumplimiento de recompensa', function() {
+    it('Cumplimiento de recompensa', function() {
+      cy.visit('https://habitica.com/');
+      cy.get('.login-button').click();
+
+      cy.get('#login-form').find('input[id=usernameInput]').click().type("pruebaset2");
+      cy.get('#login-form').find('input[id=passwordInput]').click().type("pruebas1234");
+      cy.get('.btn.btn-info').click();
+
+      cy.get('.reward > .tasks-list > .quick-add').click().type("Recompensa por pasear al perro").type('{enter}')
+      cy.get('.reward > .tasks-list > .sortable-tasks > [draggable="false"] > .task > :nth-child(1) > .right-control').first().click({force: true})             
+        
+    })
+})
