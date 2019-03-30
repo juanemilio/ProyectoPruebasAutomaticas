@@ -33,7 +33,7 @@ Scenario Outline: Crear habitos
 
 	Examples:
       | habito 				|
-	  | Primer hábito  	|
-	  | Segundo hábito 	|
-	  | Tercer hábito 	|
-	  | Cuarto hábito 	|
+	  | Primer hÃ¡bito  	|
+	  | Segundo hÃ¡bito 	|
+	  | Tercer hÃ¡bito 	|
+	  | Cuarto hÃ¡bito 	|
